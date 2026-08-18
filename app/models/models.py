@@ -8,6 +8,7 @@ class Person(Base):
     full_name = Column(String)
     aliases = Column(JSON)
     addresses = Column(JSON)
+    date_of_birth = Column(DateTime, nullable=True)
     email = Column(String)
 
 class Broker(Base):
