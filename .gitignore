@@ -1,0 +1,26 @@
+# Database — contains real PII, never commit
+*.db
+*.sqlite
+*.sqlite3
+identifier.sqlite
+
+# Environment / secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
